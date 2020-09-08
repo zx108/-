@@ -1,0 +1,119 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-color: rgb(204,204,153);
+}
+
+div #container
+{
+    position: relative;
+    width: 700px;
+    margin: 60px auto 0px;
+    
+}
+
+ul#profiles
+{
+    /* position: relative; */
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+ul#profiles li
+{
+    float: left;
+    padding: 4px;
+    height: 400px;
+}
+ul#profiles li:nth-child(3)
+{
+    position: absolute;
+    right: 0px;
+
+}
+
+ul#profiles li img
+{
+    height: 100%;
+}
+
+h1
+{
+    clear: both;
+    height: 332px;
+    width: 422px;
+    /* background-color: #cccc99; */
+    background-image: url(./images/logo.png);
+    background-repeat: no-repeat;
+}
+
+
+
+#container h1 span
+{
+    display: none;
+}
+
+#container h1
+{
+    position: absolute;
+
+    left: 567px;
+    top: 405px;
+}
+
+#container h2
+{
+    display: none;
+}
+
+#jianjie
+{
+    position: absolute;
+    left: 1000px;
+    top: 230px;
+    width: 580px;
+    background: rgba(5, 5, 5,0.3);
+    padding: 4px;
+    border-radius: 4px;
+    /* border: 1px solid red; */
+}
+
+#lianjie
+{
+    position: absolute;
+    left: 1000px;
+    top: 453px;
+    width: 580px;
+    list-style-type: none;
+    background: rgba(5, 5, 5,0.3);
+    padding: 4px;
+    border-radius: 4px;
+}
+
+#lianxi
+{
+    position: absolute;
+    left: 1000px;
+    top: 572px;
+    width: 580px;
+    background: rgba(5, 5, 5,0.3);
+    padding: 4px;
+    border-radius: 4px;
+    /* border: 1px solid red; */
+    
+}
+
+#lianxi p
+{
+    margin-bottom: 30px;
+    height: 45px;
+    line-height: 45px;
+}
+
+
