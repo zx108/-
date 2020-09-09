@@ -1,0 +1,178 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+#container
+{
+    width: 80%;
+    margin: 0px auto;
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+#mainMenu
+{
+    overflow: hidden;
+    background-color: rgb(90, 91, 92);
+}
+
+#header ul li
+{
+    float: left;
+    width: 14.5%;
+    height: 100px;
+    padding-left: 30px;
+    /* margin-right: -20px; */
+}
+
+#header ul li a
+{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid red; */
+    color: rgb(188, 194, 199);
+    border-right: 3px solid rgb(188, 194, 199);
+}
+
+#header ul li a:hover
+{
+    color: rgb(231, 236, 240);
+}
+
+#header ul li:last-child a
+{
+    border: none;
+}
+
+.xx
+{
+    display: inline-block;
+    height: 80px;
+}
+
+#mainMenu .number
+{
+    font-size: 54px;
+}
+
+#container #header h1
+{
+    height: 180px;
+    background-color: rgb(209, 225, 241);
+    padding-left: 100px;
+    padding-top: 120px;
+}
+
+#mainBody
+{
+    /* position: relative; */
+    margin-top: 5px;
+    border: 1px solid red;
+    overflow: hidden;
+}
+
+#mainBody-left
+{
+    float: left;
+    width: 80%;
+
+}
+
+.example h2
+{
+    height: 50px;
+    background-color: rgb(152, 155, 158);
+    color: rgb(66, 68, 68);
+    line-height: 50px;
+    padding-left: 20px;
+}
+
+.example>ul>li>img
+{
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    background-color: cornflowerblue;
+}
+
+
+
+.em
+{
+    display: inline-block;
+    height: 200px;
+    line-height: 40px;
+}
+
+.example>ul
+{
+    overflow: hidden;
+}
+
+.example>ul>li
+{
+    float: left;
+    width: 50%;
+}
+
+#mainBody-left .xxxx
+{
+    /* font-weight: 30px; */
+    font-size: 26px;
+}
+
+.em span:nth-child(7)
+{
+    color: rgb(170, 40, 40);
+}
+
+.em span:nth-child(9) a
+{
+    text-decoration: none;
+    color: lightgray;
+    background-color: rgb(97, 94, 94);
+    /* display: inline-block; */
+    /* width: 60px */
+
+    /* height: 40px; */
+}
+
+#leftMenu
+{
+    /* float: right; */
+    width: 17%;
+    position: absolute;
+    top: 350px;
+    right: 0px;
+    /* background-color: lightgrey; */
+    border: 1px solid red;
+    list-style-type: circle;
+    padding-left: 50px;
+    background-color: white;
+}
+
+#leftMenu li
+{
+    /* border-bottom: rgb(110, 108, 108) 1PX SOLID; */
+}
+
+#leftMenu li a
+{
+    text-decoration: none;
+    color:  rgb(97, 94, 94);
+
+}
+#leftMenu li a:hover
+{
+    color: black;
+}
